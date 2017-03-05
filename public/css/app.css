@@ -57,3 +57,33 @@
   .top-bar a.current {
     color: #9bc33f;
     border-bottom: 3px solid #9bc33f; }
+
+/* === Section Showcase === */
+.showcase {
+  background: url("../img/showcase.jpg") no-repeat -100px 0;
+  min-height: 400px;
+  color: #fff; }
+
+.showcase-box {
+  padding: 20px 30px;
+  margin-top: 30px;
+  background-color: #0f74a0;
+  color: #fff;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px; }
+  .showcase-box p {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px; }
+
+.showcase-box-bottom {
+  background-color: #9bc33f;
+  padding: 10px 30px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px; }
+  .showcase-box-bottom .pricing span {
+    font-size: 35px;
+    font-weight: bold; }
+  .showcase-box-bottom .start-link {
+    padding-top: 20px; }
+    .showcase-box-bottom .start-link a {
+      color: #fff; }
