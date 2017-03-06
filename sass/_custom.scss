@@ -47,7 +47,14 @@
   a {
     color: $white ;
   }
+  
+  a:hover {
+    color: $secondary;
+  }
+  
+  
 }
+
 
 /*  === Top Bar === */
 .top-bar {
@@ -123,6 +130,21 @@
 
     a {
       color: $white;
+    }
+  }
+}
+
+/* ===  Section Domain-Search === */
+
+.domain-search {
+  margin-bottom: 30px;
+  background-color: $light-gray;
+  padding: 30px 20px 20px;
+  border-bottom: 2px solid #ccc;
+
+  .domain-form {
+    input, .input-group-label {
+      border-color: $medium-light-gray;
     }
   }
 }

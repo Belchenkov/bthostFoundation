@@ -34,6 +34,8 @@
     font-size: 13px; }
   .top-list-right a {
     color: #fff; }
+  .top-list-right a:hover {
+    color: #9bc33f; }
 
 /*  === Top Bar === */
 .top-bar {
@@ -87,3 +89,12 @@
     padding-top: 20px; }
     .showcase-box-bottom .start-link a {
       color: #fff; }
+
+/* ===  Section Domain-Search === */
+.domain-search {
+  margin-bottom: 30px;
+  background-color: #f4f4f4;
+  padding: 30px 20px 20px;
+  border-bottom: 2px solid #ccc; }
+  .domain-search .domain-form input, .domain-search .domain-form .input-group-label {
+    border-color: #ccc; }
