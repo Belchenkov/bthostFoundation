@@ -1,3 +1,6 @@
+body {
+  padding-bottom: 100px; }
+
 /*  === Top Nav === */
 .top-nav {
   width: 100%;
@@ -64,7 +67,8 @@
 .showcase {
   background: url("../img/showcase.jpg") no-repeat -100px 0;
   min-height: 400px;
-  color: #fff; }
+  color: #fff;
+  padding-bottom: 30px; }
 
 .showcase-box {
   padding: 20px 30px;
@@ -98,3 +102,56 @@
   border-bottom: 2px solid #ccc; }
   .domain-search .domain-form input, .domain-search .domain-form .input-group-label {
     border-color: #ccc; }
+
+section.home-packages .p-box-1,
+section.home-packages .p-box-2,
+section.home-packages .p-box-3 {
+  text-align: center;
+  border-radius: 10px; }
+  section.home-packages .p-box-1 .fa,
+  section.home-packages .p-box-2 .fa,
+  section.home-packages .p-box-3 .fa {
+    font-size: 60px; }
+  section.home-packages .p-box-1 .features,
+  section.home-packages .p-box-2 .features,
+  section.home-packages .p-box-3 .features {
+    margin: 20px 0 30px 0; }
+  section.home-packages .p-box-1 li,
+  section.home-packages .p-box-2 li,
+  section.home-packages .p-box-3 li {
+    padding: 10px 0;
+    border-bottom: 1px solid #f4f4f4; }
+
+section.home-packages .p-box-1 .fa {
+  color: #0f74a0; }
+
+section.home-packages .p-box-1 .pricing span {
+  font-size: 35px;
+  font-weight: bold;
+  color: #0f74a0; }
+
+section.home-packages .p-box-2 .fa {
+  color: #9bc33f; }
+
+section.home-packages .p-box-2 .pricing span {
+  font-size: 35px;
+  font-weight: bold;
+  color: #9bc33f; }
+
+section.home-packages .p-box-3 .fa {
+  color: #fb9f33; }
+
+section.home-packages .p-box-3 .pricing span {
+  font-size: 35px;
+  font-weight: bold;
+  color: #fb9f33; }
+
+section.home-packages .extra {
+  background-color: #fb9f33; }
+
+section.home-packages .secondary {
+  background-color: #9bc33f;
+  color: #fff; }
+
+section.home-packages h3 {
+  font-size: 29px; }
