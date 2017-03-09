@@ -1,0 +1,53 @@
+include partial/header.jade
+
+include partial/search-form.jade
+
+section.home-packages.row
+    .columns.large-12.medium-12
+        h2.text-center Dedicated Hosting
+        p.lead.text-center Dedicated packages
+        br
+        .row
+            .columns.large-4.medium-4
+                .callout.p-box-1
+                    h3 Simple Dedicated
+                    p Great for small & simple sites
+                    i.fa.fa-database(aria-hidden="true")
+                    ul.features.menu.vertical
+                        li 25GB SSD Storage
+                        li 100GB Data Transfer
+                        li 10 Email Accounts
+                        li 1 Domain Name
+                    .pricing
+                        span $99.99
+                        | /Month
+                        a.button.large.expanded(href="") GET IT NOW
+            .columns.large-4.medium-4
+                .callout.p-box-2
+                    h3 Standard Dedicated
+                    p Great for medium sized sites
+                    i.fa.fa-database(aria-hidden="true")
+                    ul.features.menu.vertical
+                        li 100GB SSD Storage
+                        li 500GB Data Transfer
+                        li 50 Email Accounts
+                        li 5 Domain Names
+                    .pricing
+                        span $129.99
+                        | /Month
+                        a.button.large.expanded.secondary(href="") GET IT NOW
+            .columns.large-4.medium-4
+                .callout.p-box-3
+                    h3 Super Dedicated
+                    p Great for enterprise sites & apps
+                    i.fa.fa-database(aria-hidden="true")
+                    ul.features.menu.vertical
+                        li 500GB SSD Storage
+                        li 1TB Data Transfer
+                        li Unlimited Email Accounts
+                        li Unlimited Domain Names
+                    .pricing
+                        span $199.99
+                        | /Month
+
+include partial/footer.jade

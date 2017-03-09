@@ -174,7 +174,7 @@ section.home-packages {
       border-bottom: 1px solid $light-gray;
     }
   }
-  
+
   .p-box-1 {
     .fa {
       color: $primary;
@@ -210,18 +210,47 @@ section.home-packages {
       color: $extra;
     }
   }
+}
+/* === SECTION A === */
+section.section-a {
+  margin-top: 30px;
+  padding: 50px 0;
+  background-color: $light-gray;
+}
 
 
-  .extra {
-    background-color: $extra;
-  }
-  
-  .secondary {
-    background-color: $secondary;
-    color: $white;
-  }
+section.section-b {
+  background-color: $dark-gray;
+  text-align: center;
+  padding: 50px 0;
+  color: $white;
+}
 
-  h3 {
-    font-size: 29px;
+.section-c {
+  background-color: $primary;
+  color: $white;
+  padding: 50px 0;
+  text-align: center;
+
+  .fa {
+    font-size: 90px;
   }
+}
+
+footer {
+  padding: 50px 0;
+}
+
+/* === Yet Styles ===*/
+.extra {
+  background-color: $extra;
+}
+
+.secondary {
+  background-color: $secondary;
+  color: $white;
+}
+
+h3 {
+  font-size: 29px;
 }

@@ -146,12 +146,36 @@ section.home-packages .p-box-3 .pricing span {
   font-weight: bold;
   color: #fb9f33; }
 
-section.home-packages .extra {
+/* === SECTION A === */
+section.section-a {
+  margin-top: 30px;
+  padding: 50px 0;
+  background-color: #f4f4f4; }
+
+section.section-b {
+  background-color: #3D3F40;
+  text-align: center;
+  padding: 50px 0;
+  color: #fff; }
+
+.section-c {
+  background-color: #0f74a0;
+  color: #fff;
+  padding: 50px 0;
+  text-align: center; }
+  .section-c .fa {
+    font-size: 90px; }
+
+footer {
+  padding: 50px 0; }
+
+/* === Yet Styles ===*/
+.extra {
   background-color: #fb9f33; }
 
-section.home-packages .secondary {
+.secondary {
   background-color: #9bc33f;
   color: #fff; }
 
-section.home-packages h3 {
+h3 {
   font-size: 29px; }

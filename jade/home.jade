@@ -1,0 +1,209 @@
+include partial/header.jade
+
+section.showcase
+    .row
+        .columns.large-5.medium-5.large-offset-1.medium-offset-1
+            .showcase-box
+                h3 Fast, Secure, Realiable
+                p Powerful shared hosting on enterprise hardware.
+                .row
+                    .columns.large-6.medium-6
+                        ul
+                            li
+                                strong Easy&nbsp;
+                                |Control Panel
+                            li
+                                strong 1 Click &nbsp;
+                                |Script Installs
+                            li
+                                strong SSD&nbsp;
+                                |Data Storage
+                    .columns.large-6.medium-6
+                        ul
+                            li
+                                strong Unlimited&nbsp;
+                                |Transfer
+                            li
+                                strong 24/7&nbsp;
+                                |Tech Support
+                            li
+                                strong 99% Uptime&nbsp;
+                                |Guarantee
+            // /.show-box
+
+            .showcase-box-bottom
+                .row
+                    .columns.large-6.medium-6 Starting at
+                        .pricing
+                            span $9.99
+                            |/Month
+                    .start-link.columns.large-6.medium-6
+                        h5
+                            a(href='#')
+                                i(aria-hidden="true").fa.fa-arrow-circle-right &nbsp;
+                                |Get Started Now
+// /.showcase
+
+include partial/search-form.jade
+
+section.home-packages.row
+    .columns.large-12.medium-12
+        h2.text-center Hosting Packages For Everyone
+        p.lead.text-center We have hosting packages for individuals and businesses of all types
+        br
+
+        ul(data-tabs).tabs#package-tabs
+            li.tabs-title.is-active
+                a(href="#shared" aria-selected="true") Shared Hosting
+            li.tabs-title
+                a(href="#vps") Cloud VPS
+            li.tabs-title
+                a(href="#dedicated") Dedicated Servers
+        div.tabs-content(data-tabs-content="package-tabs")
+            .tabs-panel.is-active#shared
+                .row
+                    .columns.large-4.medium-4
+                        .callout.p-box-1
+                            h3 Simple Shared
+                            p Great for small & simple sites
+                            i.fa.fa-database(aria-hidden="true")
+                            ul.features.menu.vertical
+                                li 25GB SSD Storage
+                                li 100GB Data Transfer
+                                li 10 Email Accounts
+                                li 1 Domain Name
+                            .pricing
+                                span $9.99
+                                |/Month
+                                a.button.large.expanded(href="") GET IT NOW
+                    .columns.large-4.medium-4
+                        .callout.p-box-2
+                            h3 Standard Shared
+                            p Great for medium sized sites
+                            i.fa.fa-database(aria-hidden="true")
+                            ul.features.menu.vertical
+                                li 100GB SSD Storage
+                                li 500GB Data Transfer
+                                li 50 Email Accounts
+                                li 5 Domain Names
+                            .pricing
+                                span $19.99
+                                | /Month
+                                a.button.large.expanded.secondary(href="") GET IT NOW
+                    .columns.large-4.medium-4
+                        .callout.p-box-3
+                            h3 Super Shared
+                            p Great for enterprise sites & apps
+                            i.fa.fa-database(aria-hidden="true")
+                            ul.features.menu.vertical
+                                li 500GB SSD Storage
+                                li 1TB Data Transfer
+                                li Unlimited Email Accounts
+                                li Unlimited Domain Names
+                            .pricing
+                                span $29.99
+                                | /Month
+                                a.button.large.expanded.extra(href="") GET IT NOW
+            .tabs-panel#vps
+                .row
+                    .columns.large-4.medium-4
+                        .callout.p-box-1
+                            h3 Simple VPS
+                            p Great for small & simple sites
+                            i.fa.fa-database(aria-hidden="true")
+                            ul.features.menu.vertical
+                                li 25GB SSD Storage
+                                li 100GB Data Transfer
+                                li 10 Email Accounts
+                                li 1 Domain Name
+                            .pricing
+                                span $29.99
+                                | /Month
+                                a.button.large.expanded(href="") GET IT NOW
+                    .columns.large-4.medium-4
+                        .callout.p-box-2
+                            h3 Standard VPS
+                            p Great for medium sized sites
+                            i.fa.fa-database(aria-hidden="true")
+                            ul.features.menu.vertical
+                                li 100GB SSD Storage
+                                li 500GB Data Transfer
+                                li 50 Email Accounts
+                                li 5 Domain Names
+                            .pricing
+                                span $49.99
+                                | /Month
+                                a.button.large.expanded.secondary(href="") GET IT NOW
+                    .columns.large-4.medium-4
+                        .callout.p-box-3
+                            h3 Super VPS
+                            p Great for enterprise sites & apps
+                            i.fa.fa-database(aria-hidden="true")
+                            ul.features.menu.vertical
+                                li 500GB SSD Storage
+                                li 1TB Data Transfer
+                                li Unlimited Email Accounts
+                                li Unlimited Domain Names
+                            .pricing
+                                span $79.99
+                                | /Month
+                                a.button.large.expanded.extra(href="") GET IT NOW
+            .tabs-panel#dedicated
+                .row
+                    .columns.large-4.medium-4
+                        .callout.p-box-1
+                            h3 Simple Dedicated
+                            p Great for small & simple sites
+                            i.fa.fa-database(aria-hidden="true")
+                            ul.features.menu.vertical
+                                li 25GB SSD Storage
+                                li 100GB Data Transfer
+                                li 10 Email Accounts
+                                li 1 Domain Name
+                            .pricing
+                                span $99.99
+                                | /Month
+                                a.button.large.expanded(href="") GET IT NOW
+                    .columns.large-4.medium-4
+                        .callout.p-box-2
+                            h3 Standard Dedicated
+                            p Great for medium sized sites
+                            i.fa.fa-database(aria-hidden="true")
+                            ul.features.menu.vertical
+                                li 100GB SSD Storage
+                                li 500GB Data Transfer
+                                li 50 Email Accounts
+                                li 5 Domain Names
+                            .pricing
+                                span $129.99
+                                | /Month
+                                a.button.large.expanded.secondary(href="") GET IT NOW
+                    .columns.large-4.medium-4
+                        .callout.p-box-3
+                            h3 Super Dedicated
+                            p Great for enterprise sites & apps
+                            i.fa.fa-database(aria-hidden="true")
+                            ul.features.menu.vertical
+                                li 500GB SSD Storage
+                                li 1TB Data Transfer
+                                li Unlimited Email Accounts
+                                li Unlimited Domain Names
+                            .pricing
+                                span $199.99
+                                | /Month
+                                a.button.large.expanded.extra(href="") GET IT NOW
+// section.home-packages
+
+section.section-a
+    .row
+        .columns.large-6
+            img(src="img/server.png")
+        .columns.large-6
+            h2 How Are We Different
+            p Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                |Sed congue tortor vel velit rutrum, et varius purus semper. Quisque sit amet lobortis magna. Ut eget viverra elit. Aenean eu congue ante, non eleifend justo. Vestibulum ante
+                |ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae
+            a.button.large.hollow(href="about.html") Read More
+// .section-a
+
+include partial/footer.jade
