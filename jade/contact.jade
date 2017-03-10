@@ -1,0 +1,28 @@
+- var title = "Contact"
+
+include partial/header.jade
+include partial/search-form.jade
+
+section.home-packages.row
+    .columns.large-12.medium-12
+        h2.text-center Contact Us
+        p.lead.text-center Get In Touch?
+        hr
+        br
+
+        form.callout
+            .large-6.medium-6.column
+                label Name
+                    input(type='text' placeholder='Enter Your Name')
+
+                label Company
+                    input(type='text' placeholder='Company Name')
+                button(type='submit').button Send
+            .large-6.medium-6.column
+                label Email
+                    input(type='email' placeholder='Enter Email')
+                label Phone
+                    input(type='text' placeholder='Enter Phone')
+                label Message
+                    textarea(rows='6') Message ...
+include partial/footer.jade

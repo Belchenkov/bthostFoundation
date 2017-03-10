@@ -166,6 +166,9 @@ section.section-b {
   .section-c .fa {
     font-size: 90px; }
 
+.callout {
+  overflow: hidden; }
+
 footer {
   padding: 50px 0; }
 

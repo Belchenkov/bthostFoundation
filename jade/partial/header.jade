@@ -28,9 +28,15 @@ html
                         li
                             a(href='#' data-open='loginModal') Client Login
                         li
-                            a(href='about.html') About Us
+                            if title == "About"
+                                a(href='about.html').current About Us
+                            else
+                                a(href='about.html') About Us
                         li
-                            a(href='contact.html') Support
+                            if title == "Contact"
+                                a(href='contact.html').current Support
+                            else
+                                a(href='contact.html') Support
 
         .top-bar
             .row
