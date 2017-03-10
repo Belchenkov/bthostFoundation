@@ -30,9 +30,8 @@
     </div>
     <div class="top-bar">
       <div class="row">
-        <div class="top-bar-left">
-          <h3><span>BT</span>Hosting</h3>
-        </div>
+        <div class="top-bar-left"><a href="home.html">
+            <h3><span>BT</span>Hosting</h3></a></div>
         <div class="top-bar-right">
           <ul class="menu">
             <li><a class="current" href="home.html"> Home</a>
@@ -301,7 +300,7 @@
         <li><a href="#">About Us</a></li>
         <li><a href="#">Contact Us</a></li>
         <li><a href="#">Privacy Policy</a></li>
-        <li><a href="#">(ite Map</a></li>
+        <li><a href="#">Site Map</a></li>
       </ul>
     </div>
     <div class="columns large-3">
@@ -317,6 +316,23 @@
     <div class="columns large-3"><img src="img/truste-seal.png"></div>
   </div>
 </footer>
+<div class="reveal" id="loginModal" data-reveal>
+  <h1>Client Login</h1>
+  <div class="row">
+    <label>
+      <input type="text" placeholder="Username">
+    </label>
+  </div>
+  <div class="row">
+    <input type="password" placeholder="Password">
+  </div><span class="float-left remember">Remember Me</span>
+  <div class="switch">
+    <input class="switch-input" id="rememberSwitch" type="checkbox" name="rememberSwitch">
+    <label class="switch-paddle" for="rememberSwitch"><span class="show-for-sr">Remember Me?</span></label>
+  </div>
+  <button class="button" type="submit">Login</button>
+  <button class="close-button" data-close aria-label="Close modal" type="button"><span aria-hidden="true">&times;</span></button>
+</div>
 <script src="../js/vendor/jquery.js"></script>
 <script src="../js/vendor/what-input.js"></script>
 <script src="../js/vendor/foundation.js"></script>

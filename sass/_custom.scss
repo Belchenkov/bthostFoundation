@@ -237,8 +237,18 @@ section.section-b {
   }
 }
 
+.callout.primary {
+  border-radius: 5px;
+  background-color: #2ba6cb;
+  margin: 20px 0;
+  color: $white;
+}
 .callout {
-  overflow: hidden;  
+  overflow: hidden;
+}
+
+.remember {
+  margin-right: 4px;
 }
 
 footer {

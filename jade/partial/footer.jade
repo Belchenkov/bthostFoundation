@@ -44,7 +44,7 @@ footer
                  li
                     a(href="#") Privacy Policy
                  li
-                    a(href="#") (ite Map
+                    a(href="#") Site Map
         div.columns.large-3
              h5 Support
                 ul.menu.vertical
@@ -58,6 +58,23 @@ footer
                         a(href="#") Ticket System
         div.columns.large-3
             img(src="img/truste-seal.png")
+
+.reveal#loginModal(data-reveal)
+    h1 Client Login
+    .row
+        label
+            input(type="text" placeholder="Username")
+    .row
+        input(type="password" placeholder="Password")
+    span.float-left.remember Remember Me
+    .switch
+        input.switch-input#rememberSwitch(type="checkbox" name="rememberSwitch")
+        label.switch-paddle(for="rememberSwitch")
+            span.show-for-sr Remember Me?
+    button.button(type="submit") Login
+    button.close-button(data-close aria-label="Close modal" type="button")
+        span(aria-hidden="true") &times;
+
 
 script(src='../js/vendor/jquery.js')
 script(src='../js/vendor/what-input.js')
