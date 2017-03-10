@@ -3,7 +3,7 @@ html
     head
         meta(charset='utf-8')
 
-        title BTHosting
+        title BTHosting | #{title}
 
         link(rel='stylesheet', href='../public/css/font-awesome.min.css')
         link(rel='stylesheet', href='../public/css/foundation.min.css')
@@ -41,12 +41,24 @@ html
                 .top-bar-right
                     ul.menu
                         li
-                            a(href='home.html') Home
+                            if title == "Home"
+                               a(href='home.html').current  Home
+                            else
+                                a(href='home.html')  Home
                         li
-                            a(href='shared.html') Shared Hosting
+                            if title == "Shared"
+                               a(href='shared.html').current Shared Hosting
+                            else
+                               a(href='shared.html') Shared Hosting
                         li
-                            a(href='vps.html') Vps Hosting
+                            if title == "Vps"
+                                a(href='vps.html').current Vps Hosting
+                            else
+                                a(href='vps.html') Vps
                         li
-                            a(href='dedicated.html') Dedicated Servers
+                            if title == "Dedicated"
+                                a(href='dedicated.html').current Dedicated Servers
+                            else
+                                a(href='dedicated.html') Dedicated Servers
         // /.top-bar
 
